@@ -1,0 +1,42 @@
+intents:
+- greet
+- goodbye
+- affirm
+- deny
+- thanks
+- location
+- name
+- subscribe
+- affirm+subscribe
+- chitchat
+entities:
+- location
+- name
+slots:
+  location:
+    type: unfeaturized
+  name:
+    type: unfeaturized
+templates:
+  utter_greet:
+  - text: Hey! I am Sir Hisss and I would like to help you. What is your name?
+  utter_ask_name:
+  - text: Great, I am Sir Hisss. What is your name?
+  utter_ask_location:
+  - text: Hi {name}! And where are you from?
+  utter_owned_snake:
+  - text: Great! Have you ever owned a snake before?
+  utter_how_help:
+  - text: Ok Great!  How can I help?
+  utter_goodbye:
+  - text: Bye!
+  utter_default:
+  - text: Sorry, I didn't quite understand.
+actions:
+- utter_greet
+- utter_ask_name
+- utter_ask_location
+- utter_goodbye
+- utter_default
+- utter_owned_snake
+- utter_how_help
