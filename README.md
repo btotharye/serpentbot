@@ -13,3 +13,15 @@ Ensure you are in the `serpentbot` folder for all the below steps.
 
 ## Persistence
 When you run Rasa X locally, your training data and stories are read from the files in your project (e.g. data/nlu.md), and any changes you make in the UI are saved back to those files. Conversations and other data are stored in an SQLite database saved in a file called rasa.db.
+
+## Screen Shots
+This is just an example of some of the bot flow, it can run on Facebook, a Website and more
+
+Ball Python Husbandry Story
+
+![husbandry ss 1](screenshots/husbandry_flow.png)
+
+![husbandry ss 2](screenshots/husbandry_flow2.png)
+
+
+

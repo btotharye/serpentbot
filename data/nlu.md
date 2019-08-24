@@ -48,9 +48,23 @@
 - thank you so much
 - many thanks
 
-## intent:chitchat
-- I like pizza
-- Are you a bot?
-- Tell me your favourite song
-- Where are the best tacos?
+## intent:help
+- I need help
+- what can you help with
+- can you help me
+- how can you help me
+- help
+- help me
+
+## intent:ball_python_husbandry
+- ball python husbandry
+- can you help me with ball python husbandry
+- what is the best way to keep a ball python
+
+## intent:ball_availability
+- ball python availability
+- what is your current availability
+- what do you have available
+- do you have any snakes for sale
+- what do you have for sale
 

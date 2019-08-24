@@ -1,29 +1,23 @@
-## new snake owner
+## greet with husbandry
 * greet
-  - utter_greet
-* name{"name":"Alice"}
-  - utter_ask_location
-* location{"location":"New York"}
-  - utter_owned_snake
+  - utter_help
+* ball_python_husbandry
+  - utter_ball_python_husbandry
 
-
-## existing snake owner 1
+## greet with availability
 * greet
-  - utter_greet
-* name{"name":"Tom"}
-  - utter_ask_location
-* location{"location":"California"}
-  - utter_owned_snake
-* affirm
-  -  utter_how_help
+  - utter_help
+* ball_availability
+  - utter_ball_availability
 
+## help story husbandry
+* help
+  - utter_help
+* ball_python_husbandry
+  - utter_ball_python_husbandry
 
-## existing snake owner 2
-* greet
-  - utter_greet
-* name{"name":"Ben"}
-  - utter_ask_location
-* location{"location":"NC"}
-  - utter_owned_snake
-* affirm
-  -  utter_how_help
+## help story availability
+* help
+  - utter_help
+* ball_availability
+  - utter_ball_availability

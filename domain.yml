@@ -6,9 +6,9 @@ intents:
 - thanks
 - location
 - name
-- subscribe
-- affirm+subscribe
-- chitchat
+- help
+- ball_python_husbandry
+- ball_availability
 entities:
 - location
 - name
@@ -32,6 +32,18 @@ templates:
   - text: Bye!
   utter_default:
   - text: Sorry, I didn't quite understand.
+  utter_ball_python_husbandry:
+  - text: This is where the ball python husbandry would go...
+  utter_ball_availability:
+  - text: Ball python availability will go here...
+  utter_help:
+  - text: Hey! I am Sir Hisss and I would like to help you.  From the options below
+      how may I help?
+    buttons:
+    - title: Ball Python Husbandry
+      payload: ball python husbandry
+    - title: Ball Python Availability
+      payload: ball python availability
 actions:
 - utter_greet
 - utter_ask_name
@@ -40,3 +52,6 @@ actions:
 - utter_default
 - utter_owned_snake
 - utter_how_help
+- utter_ball_python_husbandry
+- utter_ball_availability
+- utter_help
