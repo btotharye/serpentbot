@@ -1,23 +1,29 @@
-## greet with husbandry
+## greet story
 * greet
-  - utter_help
-* ball_python_husbandry
-  - utter_ball_python_husbandry
+    - utter_greet
+* faq
+    - respond_faq
+* thank
+    - utter_noworries
 
-## greet with availability
-* greet
-  - utter_help
-* ball_availability
-  - utter_ball_availability
+## ask builder story no ty
+* faq
+    - respond_faq
 
-## help story husbandry
-* help
-  - utter_help
+## ask builder story with ty
+* faq
+    - respond_faq
+* thank
+    - utter_noworries
+
+## faq story husbandry
+* faq
+  - respond_faq
 * ball_python_husbandry
   - utter_ball_python_husbandry
 
 ## help story availability
-* help
-  - utter_help
+* faq
+  - respond_faq
 * ball_availability
   - utter_ball_availability

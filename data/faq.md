@@ -1,0 +1,101 @@
+## intent:faq/ask_whatspossible
+- help
+- help please
+- i don't know what i want
+- I need some help
+- options
+- show me the menu
+- show me what's possible
+- so what can you do
+- so what can you help me with?
+- what are you good at?
+- what can I do here
+- what can I do with this bot
+- what is this bot for
+- cool! can I do something else here?
+- help me
+- talk to me!
+- come back
+- how can you help me
+- what else can i do
+- are there any other options?
+- hm that doesnt quite help me is there anything else you can do?
+- what can i do here
+- what can i do now
+- um what now
+- so now what
+- help?
+- now what?
+- Great, is there anything else you can do, bot?
+- what can you do?
+- how can you help me?
+- can you do anything else?
+- i asked you if you can do anything else
+- anything els
+- so what next?
+- what else can I do here?
+- Can you explain me in one sentence what you are doing?
+- what are the options?
+
+## intent:faq/ask_isbot
+- are you a bot?
+- are you a real bot?
+- are you a bot
+- are you really a bot
+- are you a robot
+- are you a robot
+- are you a rasa bot?
+- are you a rasa bot?
+- what are you, a bot?
+- tell me, are you a bot?
+- are you a Skynet ?
+- are you a chatbot
+- are you ai
+- are you artificial intelligence
+- are you artificial
+- i guess you are a chatbot
+- you are a robot
+- you are ai
+- you are chatbot
+- are you bot
+- are you a bot ?
+- you're a bot
+- Are you the bot?
+- Hi there, are you the bot?
+- Are you a chat bot?
+- are you rasa bot?
+- Ar you a bot ?
+- are you robot
+- are you real
+- What are you ?
+- So I'm here Today to ask [one](number:1) very simple question, what are you ?
+- are you real lol
+- cuz you are a bot
+- are you bot?
+- oh are you chatbot?
+- are you sure that you're a bot?
+- are you a BOT
+
+## intent:faq/ask_whoisit
+- who is this
+- who am i talking to
+- what's your name
+- who am i speaking with
+- who r u
+- what's your name bot
+- whats ur name
+- what are you called?
+- who is talking?
+- who speaks?
+- who talks?
+- who are you and what do you want from me
+- who are you?
+- who is it?
+- who are u?
+- who are you
+- I want to know who you are
+- who are y
+- yes but who are you in your heart
+- are you a bot?
+- who is this?
+- hi! what's your name?

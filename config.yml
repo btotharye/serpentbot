@@ -3,22 +3,15 @@
 language: en
 pipeline:
 - name: "WhitespaceTokenizer"
-- name: "RegexFeaturizer"
-- name: "CRFEntityExtractor"
-- name: "EntitySynonymMapper"
+  intent_split_symbol: "_"
 - name: "CountVectorsFeaturizer"
 - name: "EmbeddingIntentClassifier"
-  intent_tokenization_flag: true
-  intent_split_symbol: "+"
+- name: "ResponseSelector"
+
 
 # Configuration for Rasa Core.
 # https://rasa.com/docs/rasa/core/policies/
 policies:
-  - name: MemoizationPolicy
+  - name: AugmentedMemoizationPolicy
   - name: KerasPolicy
-    epochs: 200
   - name: MappingPolicy
-  - name: FallbackPolicy
-    nlu_threshold: 0.2
-    core_threshold: 0.2
-    fallback_action_name: action_default_fallback

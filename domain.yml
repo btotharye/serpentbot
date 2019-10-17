@@ -1,9 +1,10 @@
 intents:
+- faq
 - greet
 - goodbye
 - affirm
 - deny
-- thanks
+- thank
 - location
 - name
 - help
@@ -18,16 +19,14 @@ slots:
   name:
     type: unfeaturized
 templates:
+  utter_noworries:
+  - text: no problem
   utter_greet:
-  - text: Hey! I am Sir Hisss and I would like to help you. What is your name?
-  utter_ask_name:
-  - text: Great, I am Sir Hisss. What is your name?
+  - text: hello
   utter_ask_location:
   - text: Hi {name}! And where are you from?
   utter_owned_snake:
-  - text: Great! Have you ever owned a snake before?
-  utter_how_help:
-  - text: Ok Great!  How can I help?
+  - text: Have you ever owned a snake before?
   utter_goodbye:
   - text: Bye!
   utter_default:
@@ -36,22 +35,12 @@ templates:
   - text: This is where the ball python husbandry would go...
   utter_ball_availability:
   - text: Ball python availability will go here...
-  utter_help:
-  - text: Hey! I am Sir Hisss and I would like to help you.  From the options below
-      how may I help?
-    buttons:
-    - title: Ball Python Husbandry
-      payload: ball python husbandry
-    - title: Ball Python Availability
-      payload: ball python availability
 actions:
+- respond_faq
+- utter_noworries
 - utter_greet
-- utter_ask_name
-- utter_ask_location
 - utter_goodbye
 - utter_default
 - utter_owned_snake
-- utter_how_help
 - utter_ball_python_husbandry
 - utter_ball_availability
-- utter_help

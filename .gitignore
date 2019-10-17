@@ -1,8 +1,13 @@
+# Rasa Stuff
+models/
+*.db
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
 .DS_Store
+.vscode/
 
 # C extensions
 *.so

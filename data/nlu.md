@@ -20,13 +20,6 @@
 - see you around
 - see you later
 
-## intent:greet
-- hey
-- hello
-- hi
-- good morning
-- good evening
-- hey there
 
 ## intent:location
 - I am from [NC](location:NC)
@@ -42,19 +35,6 @@
 - Please call me [Brian](name)
 - I'm [Dan](name)
 
-## intent:thanks
-- Thanks
-- thank you
-- thank you so much
-- many thanks
-
-## intent:help
-- I need help
-- what can you help with
-- can you help me
-- how can you help me
-- help
-- help me
 
 ## intent:ball_python_husbandry
 - ball python husbandry

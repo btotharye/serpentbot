@@ -2,10 +2,20 @@
 A [Rasa](https://rasa.com/) chatbot for managing snake availability and answering basic questions about inventory, etc.
 
 ## Pre Reqs
+
+`pip install -r requirements.txt`
+
 You will need to install rasa x via `pip install rasa-x --extra-index-url https://pypi.rasa.com/simple`
 
 
+## Train Bot
+After running the commands above then you should be able to do
+
+`rasa train` - To train the new model for the bot.
+
 ## Running Bot
+
+You have 2 options you can use the `rasa shell` command to test the bot from the cli or follow the steps below to use Rasa X to have a GUI to interact with it.
 
 Ensure you are in the `serpentbot` folder for all the below steps.
 
