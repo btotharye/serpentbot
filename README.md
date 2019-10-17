@@ -29,9 +29,7 @@ This is just an example of some of the bot flow, it can run on Facebook, a Websi
 
 Ball Python Husbandry Story
 
-![husbandry ss 1](screenshots/husbandry_flow.png)
-
-![husbandry ss 2](screenshots/husbandry_flow2.png)
+![Shell Screenshot](screenshots/shell_ss.png)
 
 
 
