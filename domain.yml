@@ -1,6 +1,6 @@
 intents:
-- faq
 - greet
+- faq
 - goodbye
 - affirm
 - deny
@@ -10,37 +10,47 @@ intents:
 - help
 - ball_python_husbandry
 - ball_availability
+- inform
+- morph_lookup
 entities:
 - location
 - name
+- zipcode
+- number
+- morph
 slots:
   location:
     type: unfeaturized
   name:
     type: unfeaturized
+  morph:
+    type: unfeaturized
 templates:
-  utter_noworries:
-  - text: no problem
-  utter_greet:
-  - text: hello
   utter_ask_location:
   - text: Hi {name}! And where are you from?
-  utter_owned_snake:
-  - text: Have you ever owned a snake before?
-  utter_goodbye:
-  - text: Bye!
-  utter_default:
-  - text: Sorry, I didn't quite understand.
-  utter_ball_python_husbandry:
-  - text: This is where the ball python husbandry would go...
   utter_ball_availability:
   - text: Ball python availability will go here...
+  utter_ball_python_husbandry:
+  - text: This is where the ball python husbandry would go...
+  utter_morph_lookup:
+  - text: Ok I would then look up {morph} for you
+  utter_default:
+  - text: Sorry, I didn't quite understand.
+  utter_goodbye:
+  - text: Bye!
+  utter_greet:
+  - text: hello
+  utter_noworries:
+  - text: no problem
+  utter_owned_snake:
+  - text: Have you ever owned a snake before?
 actions:
 - respond_faq
-- utter_noworries
-- utter_greet
-- utter_goodbye
-- utter_default
-- utter_owned_snake
-- utter_ball_python_husbandry
 - utter_ball_availability
+- utter_ball_python_husbandry
+- utter_default
+- utter_goodbye
+- utter_greet
+- utter_noworries
+- utter_owned_snake
+- utter_morph_lookup

@@ -1,17 +1,32 @@
-# Configuration for Rasa NLU.
-# https://rasa.com/docs/rasa/nlu/components/
 language: en
 pipeline:
-- name: "WhitespaceTokenizer"
-  intent_split_symbol: "_"
-- name: "CountVectorsFeaturizer"
-- name: "EmbeddingIntentClassifier"
-- name: "ResponseSelector"
-
-
-# Configuration for Rasa Core.
-# https://rasa.com/docs/rasa/core/policies/
+- name: WhitespaceTokenizer
+  intent_split_symbol: _
+- name: CountVectorsFeaturizer
+- name: EmbeddingIntentClassifier
+- name: ResponseSelector
+- name: RegexFeaturizer
+- name: EntitySynonymMapper
+- name: CRFEntityExtractor
+  features:
+  - - low
+    - title
+    - upper
+  - - bias
+    - low
+    - prefix5
+    - prefix2
+    - suffix5
+    - suffix3
+    - suffix2
+    - upper
+    - title
+    - digit
+    - pattern
+  - - low
+    - title
+    - upper
 policies:
-  - name: AugmentedMemoizationPolicy
-  - name: KerasPolicy
-  - name: MappingPolicy
+- name: AugmentedMemoizationPolicy
+- name: KerasPolicy
+- name: MappingPolicy

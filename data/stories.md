@@ -10,6 +10,10 @@
 * faq
     - respond_faq
 
+## morph lookup no greet
+* morph_lookup
+    - utter_morph_lookup
+
 ## ask builder story with ty
 * faq
     - respond_faq
@@ -27,3 +31,18 @@
   - respond_faq
 * ball_availability
   - utter_ball_availability
+
+## interactive_story_1
+* greet
+    - utter_greet
+
+## faq story morph lookup
+* faq
+  - respond_faq
+* morph_lookup
+  - utter_morph_lookup
+
+## pastel lookup story
+
+* morph_lookup{"morph":"pastel"}
+    - utter_morph_lookup

@@ -1,3 +1,8 @@
+## intent:faq
+- what can you do
+- what can you help with
+- what can you help me with
+
 ## intent:greet
 - Hi
 - Hey
@@ -67,6 +72,7 @@
 - good morning
 - good afternoon
 
+
 ## intent:thank
 - Thanks
 - Thank you
@@ -94,3 +100,6 @@
 - cool thanks
 - thanks for forum link, I'll check it out
 - thanks!
+
+## lookup:morphs.txt
+  data/morphs/morphs.txt

@@ -1,4 +1,4 @@
-## intent:faq/ask_whatspossible
+## intent:faq
 - help
 - help please
 - i don't know what i want
@@ -36,8 +36,6 @@
 - what else can I do here?
 - Can you explain me in one sentence what you are doing?
 - what are the options?
-
-## intent:faq/ask_isbot
 - are you a bot?
 - are you a real bot?
 - are you a bot
@@ -75,8 +73,6 @@
 - oh are you chatbot?
 - are you sure that you're a bot?
 - are you a BOT
-
-## intent:faq/ask_whoisit
 - who is this
 - who am i talking to
 - what's your name
@@ -99,3 +95,10 @@
 - are you a bot?
 - who is this?
 - hi! what's your name?
+- what is the proper setup for a ball python
+- how do I keep a ball python
+- what is the best way to house a ball python
+- what is a good way to keep a ball python
+- what type of setup should I use for a ball python
+- can you tell me what type of setup to use to house my ball python
+- I need information on how to properly keep a ball python
