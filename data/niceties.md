@@ -100,6 +100,3 @@
 - cool thanks
 - thanks for forum link, I'll check it out
 - thanks!
-
-## lookup:morphs.txt
-  data/morphs/morphs.txt

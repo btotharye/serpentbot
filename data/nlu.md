@@ -57,3 +57,6 @@
 
 ## regex:zipcode
 - [0-9]{5}
+
+## lookup:morphs.txt
+  data/morphs/morphs.txt

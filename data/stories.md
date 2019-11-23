@@ -43,6 +43,5 @@
   - utter_morph_lookup
 
 ## pastel lookup story
-
 * morph_lookup{"morph":"pastel"}
     - utter_morph_lookup
