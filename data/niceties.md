@@ -1,8 +1,3 @@
-## intent:faq
-- what can you do
-- what can you help with
-- what can you help me with
-
 ## intent:greet
 - Hi
 - Hey
