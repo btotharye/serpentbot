@@ -31,9 +31,6 @@
 - see you around
 - see you later
 
-## intent:greet
-- hello
-
 ## intent:inform
 - [27520](zipcode)
 - [27205](zipcode)

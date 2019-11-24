@@ -21,9 +21,9 @@ entities:
 slots:
   location:
     type: unfeaturized
-  name:
-    type: unfeaturized
   morph:
+    type: unfeaturized
+  name:
     type: unfeaturized
 templates:
   utter_ask_location:
