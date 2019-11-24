@@ -32,9 +32,11 @@
 * ball_availability
   - utter_ball_availability
 
-## interactive_story_1
+## greet and husbandry question
 * greet
     - utter_greet
+* ball_python_husbandry
+    - utter_ball_python_husbandry
 
 ## faq story morph lookup
 * faq
