@@ -4,7 +4,6 @@ pipeline:
   intent_split_symbol: _
 - name: CountVectorsFeaturizer
 - name: EmbeddingIntentClassifier
-- name: ResponseSelector
 - name: RegexFeaturizer
 - name: EntitySynonymMapper
 - name: CRFEntityExtractor
