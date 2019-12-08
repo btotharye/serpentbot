@@ -1,6 +1,5 @@
 intents:
 - greet
-# - faq # commenting out retrievals until supported in Rasa X
 - goodbye
 - affirm
 - deny
@@ -12,6 +11,8 @@ intents:
 - ball_availability
 - inform
 - morph_lookup
+- whoami
+- who_ami
 entities:
 - location
 - name
@@ -44,8 +45,12 @@ templates:
   - text: no problem
   utter_owned_snake:
   - text: Have you ever owned a snake before?
+  utter_whoami:
+  - text: I'm Woz, a bot related to ball pythons 🐍 and to answer questions about Nerdy
+      Python's business.
+  utter_learning:
+  - text: Sorry I don't know how to answer this yet but I'm learning new things everyday.
 actions:
-# - respond_faq Commenting out FAQ retrievals until supported in Rasa X
 - utter_ball_availability
 - utter_ball_python_husbandry
 - utter_default
@@ -54,3 +59,6 @@ actions:
 - utter_noworries
 - utter_owned_snake
 - utter_morph_lookup
+- utter_help
+- utter_whoami
+- utter_learning
