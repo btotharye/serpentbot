@@ -1,6 +1,6 @@
 intents:
 - greet
-- faq
+# - faq # commenting out retrievals until supported in Rasa X
 - goodbye
 - affirm
 - deny
@@ -45,7 +45,7 @@ templates:
   utter_owned_snake:
   - text: Have you ever owned a snake before?
 actions:
-- respond_faq
+# - respond_faq Commenting out FAQ retrievals until supported in Rasa X
 - utter_ball_availability
 - utter_ball_python_husbandry
 - utter_default
