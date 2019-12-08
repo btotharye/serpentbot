@@ -95,3 +95,9 @@
 
 ## intent:whoami
 - what are you
+
+## intent:who_ami
+- who are you
+
+## intent:help
+- what can you help me with
