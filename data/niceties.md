@@ -58,15 +58,11 @@
 - hey dude
 - hello it is me again
 - what up
-- hi there
-- hi
 - jop
 - hi friend
 - hi there it's me
 - good evening
-- good morning
 - good afternoon
-
 
 ## intent:thank
 - Thanks
@@ -87,11 +83,15 @@
 - thanks
 - thanks!
 - Cool. Thanks
-- thanks
 - thanks this is great news
 - thank you
 - great thanks
 - Thanks!
 - cool thanks
 - thanks for forum link, I'll check it out
-- thanks!
+
+## intent:who_ami
+- who are you
+
+## intent:help
+- what can you help me with

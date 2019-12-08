@@ -43,8 +43,8 @@
 - I want a [ghost](morph) ball python
 
 ## synonym:NC
-- North Carolina
 - north cacalacky
+- North Carolina
 
 ## synonym:NYC
 - New York
@@ -54,6 +54,3 @@
 
 ## regex:zipcode
 - [0-9]{5}
-
-## lookup:morphs.txt
-  data/morphs/morphs.txt

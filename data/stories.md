@@ -1,36 +1,12 @@
 ## greet story
 * greet
     - utter_greet
-* faq
-    - respond_faq
 * thank
     - utter_noworries
-
-## ask builder story no ty
-* faq
-    - respond_faq
 
 ## morph lookup no greet
 * morph_lookup
     - utter_morph_lookup
-
-## ask builder story with ty
-* faq
-    - respond_faq
-* thank
-    - utter_noworries
-
-## faq story husbandry
-* faq
-  - respond_faq
-* ball_python_husbandry
-  - utter_ball_python_husbandry
-
-## help story availability
-* faq
-  - respond_faq
-* ball_availability
-  - utter_ball_availability
 
 ## greet and husbandry question
 * greet
@@ -38,12 +14,43 @@
 * ball_python_husbandry
     - utter_ball_python_husbandry
 
-## faq story morph lookup
-* faq
-  - respond_faq
-* morph_lookup
-  - utter_morph_lookup
-
 ## pastel lookup story
 * morph_lookup{"morph":"pastel"}
     - utter_morph_lookup
+
+## Greet and who am I story
+
+* greet
+    - utter_greet
+* who_ami
+    - utter_whoami
+
+## Greet whoami then help flow
+
+* greet
+    - utter_greet
+* who_ami
+    - utter_whoami
+* help
+    - utter_help
+
+## Greet then ask for help
+
+* greet
+    - utter_greet
+* help
+    - utter_help
+
+## Greet ask for help then say thanks
+
+* greet
+    - utter_greet
+* help
+    - utter_help
+* thank
+    - utter_noworries
+
+## Just ask for help only
+
+* help
+    - utter_help
