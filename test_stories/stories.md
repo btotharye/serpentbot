@@ -1,8 +1,8 @@
-## end-to-end story 1 who are you
-* greet: hello
-   - utter_greet
-* faq: who are you
-    - respond_faq
+## end-to-end story greet and thanks
+* greet
+    - utter_greet
+* thank
+    - utter_noworries
 
 ## end-to-end story 1 who are you
 * greet: hello
