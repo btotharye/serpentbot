@@ -9,7 +9,7 @@ import requests
 class CustomAction(Action):
 
      def name(self) -> Text:
-         return "action_custom"
+        return "action_custom"
 
      def run(self, dispatcher: CollectingDispatcher,
              tracker: Tracker,
