@@ -6,10 +6,10 @@ from rasa_sdk.executor import CollectingDispatcher
 import requests
 
 
-class ActionSubscribe(Action):
+class CustomAction(Action):
 
      def name(self) -> Text:
-         return "action_subscribe"
+        return "action_custom"
 
      def run(self, dispatcher: CollectingDispatcher,
              tracker: Tracker,
