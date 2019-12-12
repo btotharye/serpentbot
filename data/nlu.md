@@ -4,6 +4,7 @@
 - of course
 - that sounds good
 - correct
+- ok great
 
 ## intent:ball_availability
 - ball python availability

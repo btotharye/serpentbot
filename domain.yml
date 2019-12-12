@@ -11,6 +11,7 @@ intents:
 - ball_availability
 - inform
 - morph_lookup
+- whoami
 - who_ami
 entities:
 - location
@@ -47,6 +48,8 @@ templates:
   utter_whoami:
   - text: I'm Woz, a bot related to ball pythons 🐍 and to answer questions about Nerdy
       Python's business.
+  utter_learning:
+  - text: Sorry I don't know how to answer this yet but I'm learning new things everyday.
   utter_help:
   - text: I can answer all sorts of questions related to ball pythons and about Nerdy
       Python's availability.
@@ -59,5 +62,8 @@ actions:
 - utter_noworries
 - utter_owned_snake
 - utter_morph_lookup
+- utter_help
+- utter_whoami
+- utter_learning
 - utter_whoami
 - utter_help
