@@ -4,6 +4,7 @@
 - of course
 - that sounds good
 - correct
+- ok great
 
 ## intent:ball_availability
 - ball python availability
@@ -16,6 +17,7 @@
 - ball python husbandry
 - can you help me with ball python husbandry
 - what is the best way to keep a ball python
+- can you tell me the husbandry for ball pythons
 
 ## intent:deny
 - no
@@ -43,8 +45,8 @@
 - I want a [ghost](morph) ball python
 
 ## synonym:NC
-- North Carolina
 - north cacalacky
+- North Carolina
 
 ## synonym:NYC
 - New York
@@ -54,6 +56,3 @@
 
 ## regex:zipcode
 - [0-9]{5}
-
-## lookup:morphs.txt
-  data/morphs/morphs.txt
