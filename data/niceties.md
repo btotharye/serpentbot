@@ -66,6 +66,7 @@
 - Hello?
 - Hi there
 
+
 ## intent:thank
 - Thanks
 - Thank you
@@ -101,6 +102,3 @@
 ## intent:whoami
 - who are you
 - What are you
-
-## intent:who_ami
-- Who are you
