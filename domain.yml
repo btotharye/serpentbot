@@ -1,4 +1,6 @@
 intents:
+- whoami
+- who_ami
 - greet
 - goodbye
 - affirm
@@ -62,8 +64,6 @@ actions:
 - utter_noworries
 - utter_owned_snake
 - utter_morph_lookup
-- utter_help
 - utter_whoami
+- utter_help
 - utter_learning
-- utter_whoami
-- utter_help

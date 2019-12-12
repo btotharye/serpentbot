@@ -63,6 +63,9 @@
 - hi there it's me
 - good evening
 - good afternoon
+- Hello?
+- Hi there
+
 
 ## intent:thank
 - Thanks
@@ -91,13 +94,11 @@
 - thanks for forum link, I'll check it out
 
 ## intent:help
-- what can you help me with
+- what can you do
+- What can you do?
+- what can you help with
+- what can you help me with?
 
 ## intent:whoami
-- what are you
-
-## intent:who_ami
 - who are you
-
-## intent:help
-- what can you help me with
+- What are you

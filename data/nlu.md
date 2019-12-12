@@ -17,6 +17,7 @@
 - ball python husbandry
 - can you help me with ball python husbandry
 - what is the best way to keep a ball python
+- can you tell me the husbandry for ball pythons
 
 ## intent:deny
 - no
