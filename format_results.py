@@ -23,6 +23,7 @@ def format_cell(data, c, k):
         return data[c][k]
 
 
-writer.value_matrix = [[c] + [format_cell(data, c, k) for k in cols] for c in classes]
+writer.value_matrix = [
+    [c] + [format_cell(data, c, k) for k in cols] for c in classes]
 
 writer.dump("results.md")
