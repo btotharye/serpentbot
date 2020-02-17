@@ -74,19 +74,19 @@
 ## Story from conversation with 1f1339f7-ae72-4cce-8d42-ab57a4979d0a on December 8th 2019
 * greet
     - utter_greet
-* who_ami
+* whoami
     - utter_whoami
 
 ## Greet and who am I story
 * greet
     - utter_greet
-* who_ami
+* whoami
     - utter_whoami
 
 ## Greet whoami then help flow
 * greet
     - utter_greet
-* who_ami
+* whoami
     - utter_whoami
 * help
     - utter_help
