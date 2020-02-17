@@ -1,3 +1,6 @@
+session_config:
+  session_expiration_time: 60.0
+  carry_over_slots_to_new_session: true
 intents:
 - greet
 - goodbye
@@ -25,7 +28,7 @@ slots:
     type: unfeaturized
   name:
     type: unfeaturized
-templates:
+responses:
   utter_ask_location:
   - text: Hi {name}! And where are you from?
   utter_ball_availability:

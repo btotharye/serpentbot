@@ -1,11 +1,13 @@
 # serpentbot
 A [Rasa](https://rasa.com/) chatbot for managing snake availability and answering basic questions about inventory, etc.
 
+Currently setup to work on Rasa 1.7.1 and later releases.
+
+Still in development and haven't setup the custom actions yet but will be shortly.
+
 ## Pre Reqs
 
 `pip install -r requirements.txt`
-
-You will need to install rasa x via `pip install rasa-x --extra-index-url https://pypi.rasa.com/simple`
 
 
 ## Train Bot

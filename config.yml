@@ -1,26 +1,16 @@
 language: en
 pipeline:
 - name: WhitespaceTokenizer
-  intent_split_symbol: _
-- name: CountVectorsFeaturizer
-- name: EmbeddingIntentClassifier
-- name: RegexFeaturizer
-- name: EntitySynonymMapper
 - name: CRFEntityExtractor
-  features:
-  - - low
-    - title
-    - upper
-  - - bias
-    - pattern
-  - - low
-    - title
-    - upper
+- name: EntitySynonymMapper
+- name: CountVectorsFeaturizer
+  token_pattern: (?u)\b\w+\b
+- name: EmbeddingIntentClassifier
 policies:
-- name: AugmentedMemoizationPolicy
-- name: KerasPolicy
-- name: MappingPolicy
 - name: FallbackPolicy
   nlu_threshold: 0.4
   core_threshold: 0.3
   fallback_action_name: utter_learning
+- name: AugmentedMemoizationPolicy
+- name: MappingPolicy
+

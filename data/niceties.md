@@ -102,3 +102,4 @@
 ## intent:whoami
 - who are you
 - What are you
+- are you a bot
